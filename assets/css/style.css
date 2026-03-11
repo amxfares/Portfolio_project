@@ -896,6 +896,9 @@ ul { list-style: none; }
 }
 
 @media (max-width: 640px) {
+  .hero-img-wrap{
+    order: 1;
+  }
   .hero-content { flex-direction: column-reverse; text-align: center; }
   .hero-cta { justify-content: center; }
   .hero-badge { position: static; margin: 0 auto 1.5rem; }
